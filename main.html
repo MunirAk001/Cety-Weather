@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.4.2-web/css/all.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="card">
+        <div class="head">
+          <i class="fa-solid fa-location-dot"></i>
+          <h1 class="city">Kabul</h1>
+        </div>
+
+        <div class="body">
+          <div class="left">
+            <img src="./suny.png" alt=""  class="imgWeather"/>
+            <h1 class="temp"></h1>
+            <p class="main"></p>
+          </div>
+
+          <div class="right">
+            <h4 class="deyOfWeek"></h4>
+            
+            <p id="monthofdata2" class="monthofdata"></p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="searchDiv">
+        <input type="text" class="search" />
+       <img id="btnSearch"  src="/srch icon.png" alt="">
+        
+      </div>
+
+      <table>
+        <tr>
+          <td >0</td>
+          <td  class="humidity">0</td>
+          <td  class="wind">0 km/h</td>
+        </tr>
+        <tr>
+          <td class="td" >PRECIPITATION</td>
+          <td class="td">HUMIDITY</td>
+          <td class="td">WIND</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
